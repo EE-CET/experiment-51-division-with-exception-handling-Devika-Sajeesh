@@ -12,7 +12,7 @@ public class DivisionHandling {
             int result = a / b; // Enclose division in try block
             System.out.println("Result: " + result);
         } catch (ArithmeticException e) { // Catch ArithmeticException
-            System.out.println("Error: Division by zero is not allowed.");
+            System.out.println("Divide by zero error");
         }
     }
 }
